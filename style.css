@@ -1,0 +1,58 @@
+/* apply all the common rule, and font */
+@font-face {
+    font-family: "space-text";
+    src: url("path/to/a-space.light.otf") format("opentype");
+}
+
+body {
+    font-family:"space-text", sans-serif;
+}
+
+
+
+/* style and put the logos in the right position */
+
+
+.logo1 {
+max-width: 75px;
+float: left;
+margin:auto;
+padding:auto;
+}
+
+.logo2 {
+    float:right;
+    max-width: 75px;
+    margin:auto;
+    padding:auto;
+}
+
+
+/* flexbox, trying 
+to maintain the logos on the right and on the left */
+.header, .subtitle  {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+   
+    
+
+}
+
+/* logos at the same distance from the title  */
+.title {
+    
+}
+
+
+
+
+
+
+
+
+
+/* reduce the space between the coffe logo and the h1 */
+h1 {
+    margin:0;
+}
