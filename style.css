@@ -1,11 +1,19 @@
 /* apply all the common rule, and font */
 @font-face {
     font-family: "space-text";
-    src: url("path/to/a-space.light.otf") format("opentype");
+    src: url("space-explorer.regular.ttf") format("opentype");
 }
 
 body {
     font-family:"space-text", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"space-text",
+        sans-serif;
 }
 
 
@@ -39,13 +47,14 @@ to maintain the logos on the right and on the left */
 
 }
 
-/* logos at the same distance from the title  */
-.title {
-    
+/*  remove the standard <a href> visual effects */
+
+a {
+    color: inherit;
+    /* Use the color of the parent element */
+    text-decoration: none;
+    /* Remove underline */
 }
-
-
-
 
 
 
