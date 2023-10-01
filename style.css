@@ -4,19 +4,32 @@
     src: url("space-explorer.regular.ttf") format("opentype");
 }
 
-body {
-    font-family:"space-text", sans-serif;
-}
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"space-text",
-        sans-serif;
+   
 }
 
+/* heading font style  */
 
+h3,
+h1 {
+    font-family: "space-text", sans-serif;
+}
+
+/* let's use the image like a background for the title  */
+
+.image-back {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:40%;
+    z-index: -1;
+}
 
 /* style and put the logos in the right position */
 
