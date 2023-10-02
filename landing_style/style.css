@@ -123,9 +123,11 @@ h1 {
     gap:50px;
 }
 
-
+/* adapting the images to the same dimension and fitting with the border, auto-regulating the graphics  */
 .img {
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
+        min-height:200px;
+        min-width: 200px;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
 }
