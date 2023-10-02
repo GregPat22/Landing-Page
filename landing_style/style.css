@@ -14,12 +14,17 @@
    
 }
 
-/* heading font style  */
+/* heading font style and paragraph  */
 
 h3,
-h1, p {
+h1, h4 {
     font-family: "space-text", sans-serif;
    color:#aaa6ff;
+}
+
+p {
+    font-family: sans-serif;
+    color:#aaa6ff;
 }
 
 /* let's use the image like a background for the title  */
