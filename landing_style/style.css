@@ -84,30 +84,31 @@ h1 {
 /* creating the flexbox and styling the options */
 
 .Planets-choices {
-
-    text-align: center;
         display: flex;
         flex-direction: column;     
         align-items: center;
         gap: 0.5em;
-        
+        margin: 96px;
     }
 
 
 .card {
 
-            text-align: center;
-            max-width: 150px;
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-            gap: 0.5em;
-            border: 4px solid #aaa6ff;
+   display: flex;
+   flex-direction:column;
+   width: 200px;
+   border: 4px solid #aaa6ff;
             
         }
         
 
-
+.core {
+    flex-wrap: wrap;
+    display:flex;
+    justify-content:center;
+    max-width: auto;
+    gap:50px;
+}
 
 
 .img {
