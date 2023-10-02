@@ -1,7 +1,7 @@
 /* apply all the common rule, and font */
 @font-face {
     font-family: "space-text";
-    src: url("space-explorer.regular.ttf") format("opentype");
+    src: url("files/space-explorer.regular.ttf") format("opentype");
 }
 
 
@@ -16,7 +16,7 @@
 /* heading font style  */
 
 h3,
-h1 {
+h1, p {
     font-family: "space-text", sans-serif;
 }
 
@@ -79,4 +79,39 @@ a {
 /* reduce the space between the coffe logo and the h1 */
 h1 {
     margin:0;
+}
+
+/* creating the flexbox and styling the options */
+
+.Planets-choices {
+
+    text-align: center;
+        display: flex;
+        flex-direction: column;     
+        align-items: center;
+        gap: 0.5em;
+        
+    }
+
+
+.card {
+
+            text-align: center;
+            max-width: 150px;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            gap: 0.5em;
+            border: 4px solid #aaa6ff;
+            
+        }
+        
+
+
+
+
+.img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
