@@ -17,7 +17,7 @@
 /* heading font style and paragraph  */
 
 h3,
-h1, h4 {
+h1, h4, div {
     font-family: "space-text", sans-serif;
    color:#aaa6ff;
 }
@@ -131,4 +131,23 @@ h1 {
         max-width: 200px;
         object-fit: cover;
         border: 2px solid #aaa6ff;
+}
+
+
+/* creating the second section of the page, brief description and different background  */
+
+.second-section {
+    background-color: rgb(147, 147, 147), solid;
+    display:flex;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(101, 6, 4);
+}
+
+
+/* try  */
+
+div {
+    display:block;
 }
