@@ -137,17 +137,31 @@ h1 {
 /* creating the second section of the page, brief description and different background  */
 
 .second-section {
-    background-color: rgb(147, 147, 147), solid;
+    
     display:flex;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: rgb(101, 6, 4);
+    flex-direction:column;
+    background-color: #aaa6ff;
+    padding: 200px 300px;
+    gap: 20px;
+   
+}
+
+.about-descr {
+    justify-content: left;
+    text-align:left;
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+.phrase {
+color: black;
+text-align: center;
+font-size:20px;
+justify-content: center;
 }
 
 
-/* try  */
 
-div {
-    display:block;
-}
+
