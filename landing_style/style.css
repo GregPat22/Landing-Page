@@ -94,7 +94,7 @@ h1 {
         display: flex;
         flex-direction: column;     
         align-items: center;
-        gap: 0.5em;
+        gap: 0.2em;
         margin: 96px;
     }
 
@@ -120,7 +120,7 @@ h1 {
     display:flex;
     justify-content:center;
     max-width: auto;
-    gap:50px;
+    gap: 120px;
 }
 
 /* adapting the images to the same dimension and fitting with the border, auto-regulating the graphics  */
@@ -130,7 +130,7 @@ h1 {
         max-height: 200px;
         max-width: 200px;
         object-fit: cover;
-        border: 2px solid #aaa6ff;
+        border: 0.01px solid #aaa6ff;
 }
 
 
@@ -141,9 +141,9 @@ h1 {
     display:flex;
     flex-direction:column;
     background-color: #aaa6ff;
-    padding: 200px 300px;
+    padding: 150px 300px;
     gap: 20px;
-   
+    align-items: center;
 }
 
 .about-descr {
@@ -162,6 +162,15 @@ font-size:20px;
 justify-content: center;
 }
 
+/* styling the icon for the about us div */
 
+.icon {
+    max-width: 150px;
+    /* Adjust the icon's max-width as needed */
+    margin-right: 10px;
+    /* Add some spacing between icon and text */
+}
 
-
+.spaceship {
+    max-width: 150px;
+}
