@@ -174,3 +174,15 @@ justify-content: center;
 .spaceship {
     max-width: 150px;
 }
+
+/* style the footer  */
+.footer {
+    font-family: sans-serif;
+    color:black;
+    display:block;
+}
+
+.last {
+    display: flex;
+    margin: 20px;
+}
