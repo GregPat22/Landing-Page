@@ -11,7 +11,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    
+}
+/* creating the background, more lean and responsive than the previous one  */
+body {
+    background-image: url(https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg);
 }
 
 /* heading font style and paragraph  */
@@ -29,15 +33,7 @@ p {
 
 /* let's use the image like a background for the title  */
 
-.image-back {
-    position:absolute;
-    top: 0;
-    left: 0;
-    height:max-content;
-    z-index: -1;
-    opacity: 85%;
-    background-size: cover;
-}
+
 /* style and put the logos in the right position */
 
 .logo1 {
@@ -175,7 +171,7 @@ justify-content: center;
 /* style the footer  */
 .footer {
     font-family: sans-serif;
-    color:black;
+    color:#aaa6ff;
     display:block;
 }
 
@@ -183,5 +179,3 @@ justify-content: center;
     display: flex;
     margin: 20px;
 }
-
-/* just a try */
