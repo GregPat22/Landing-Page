@@ -33,7 +33,7 @@ p {
     position:absolute;
     top: 0;
     left: 0;
-    height:auto;
+    height:max-content;
     z-index: -1;
     opacity: 85%;
     background-size: cover;
@@ -183,3 +183,5 @@ justify-content: center;
     display: flex;
     margin: 20px;
 }
+
+/* just a try */
