@@ -12,7 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@200&display=swap"
       rel="stylesheet"
     />
+    <!-- flowbite -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!--  -->
   </head>
+
   <body
     class="w-full h-screen bg-no-repeat bg-cover"
     style="background-image: url('/landing_style/files/backearth.jpg')"
@@ -36,7 +44,11 @@
     </div>
     <div class="flex flex-col h-44">
       <div class="p-40">
-        <button id="dropbtn">
+        <button
+          id="dropdownHoverButton"
+          data-dropdown-toggle="dropdownHover"
+          data-dropdown-trigger="hover"
+        >
           <div
             class="p-4 bg-gray-950 rounded-md shadow-lg shadow-emerald-500 text-emerald-400 w-fit"
           >
@@ -45,9 +57,10 @@
           </div>
         </button>
         <div
-          class="bg-gray-900 rounded-lg shadow-md shadow-emerald-500 py-2 text-emerald-400 mt-4"
+          id="dropdownHover"
+          class="bg-gray-900 rounded-lg shadow-md shadow-emerald-500 py-2 text-emerald-400 mt-4 hidden"
         >
-          <ol>
+          <ol aria-labelledby="dropdownHoverButton">
             <li
               class="block px-4 py-2 hover:bg-emerald-400 hover:text-gray-900"
             >
@@ -87,5 +100,9 @@
         </div>
       </div>
     </div>
+    <!-- javascript dropdown -->
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
   </body>
 </html>
