@@ -6,3 +6,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+// npx tailwindcss -i ./landing_style/input.css -o ./dist/output.css --watch
