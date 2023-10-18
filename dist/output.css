@@ -1590,10 +1590,6 @@ body {
   font-weight: 600;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -1619,11 +1615,6 @@ body {
 .text-emerald-500 {
   --tw-text-opacity: 1;
   color: rgb(16 185 129 / var(--tw-text-opacity));
-}
-
-.text-emerald-600 {
-  --tw-text-opacity: 1;
-  color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -1677,8 +1668,18 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-blue-400 {
+  --tw-shadow-color: #76A9FA;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .shadow-emerald-500 {
   --tw-shadow-color: #10b981;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-emerald-400 {
+  --tw-shadow-color: #34d399;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
