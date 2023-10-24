@@ -41,11 +41,11 @@
           This is where coffee was born!
         </p>
       </div>
-      <div class="">
+      <div class="inline-flex">
         <button
           id="dropdownMenuIconHorizontalButton"
           data-dropdown-toggle="dropdownDotsHorizontal"
-          class="inline-flex items-center p-4 w-16 text-sm font-medium text-center text-black bg-black rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-6 py-2 px-2 m-6 font-medium text-center text-black bg-black rounded-xl hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-black dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           type="button"
         >
           <svg
@@ -62,38 +62,39 @@
         </button>
         <div
           id="dropdownDotsHorizontal"
-          class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 shadow-emerald-400 dark:bg-black dark:divide-black"
+          class="z-10 hidden divide-y rounded-lg shadow w-44 shadow-emerald-400 dark:bg-black dark:divide-none"
         >
           <ul
-            class="py-2 text-sm text-gray-700 dark:text-gray-200"
+            class="py-2 text-sm text-gray-700 dark:text-stone-400"
             aria-labelledby="dropdownMenuIconHorizontalButton"
           >
             <li>
               <a
-                href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >Dashboard</a
+                href="/index.html"
+                target="_blank"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-emerald-400"
+                >Home Page</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-emerald-400"
                 >Settings</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >Earnings</a
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-emerald-400"
+                >Donations</a
               >
             </li>
           </ul>
-          <div class="py-2">
+          <div class="py-2 text-stone-400">
             <a
               href="#"
-              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+              class="block px-4 py-2 text-sm hover:bg-gray-600 dark:hover:text-emerald-400"
               >Separated link</a
             >
           </div>
