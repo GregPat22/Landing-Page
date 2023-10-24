@@ -2319,6 +2319,15 @@ body {
   border-radius: 0.375rem;
 }
 
+.hover\:rounded-lg:hover {
+  border-radius: 0.5rem;
+}
+
+.hover\:rounded-e-3xl:hover {
+  border-start-end-radius: 1.5rem;
+  border-end-end-radius: 1.5rem;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
