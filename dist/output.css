@@ -1224,6 +1224,14 @@ body {
   margin-top: 1px;
 }
 
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
 .block {
   display: block;
 }
@@ -1477,12 +1485,20 @@ body {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-content-end {
+  place-content: end;
 }
 
 .place-items-center {
@@ -1515,6 +1531,10 @@ body {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-end {
+  justify-items: end;
 }
 
 .gap-4 {
@@ -1828,6 +1848,10 @@ body {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
