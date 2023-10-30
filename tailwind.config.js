@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    outline: ["focus"],
+  },
   plugins: [require("flowbite/plugin")],
 };
 
