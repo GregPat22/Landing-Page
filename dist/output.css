@@ -1113,6 +1113,14 @@ body {
   top: 50%;
 }
 
+.-top-2 {
+  top: -0.5rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1248,6 +1256,18 @@ body {
 
 .mt-px {
   margin-top: 1px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.mr-24 {
+  margin-right: 6rem;
 }
 
 .block {
@@ -1413,6 +1433,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .min-w-\[200px\] {
@@ -1598,6 +1622,12 @@ body {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-96 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(24rem * var(--tw-space-x-reverse));
+  margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -2570,6 +2600,18 @@ body {
   opacity: 0.1;
 }
 
+.focus\:absolute:focus {
+  position: absolute;
+}
+
+.focus\:-top-2:focus {
+  top: -0.5rem;
+}
+
+.focus\:left-8:focus {
+  left: 2rem;
+}
+
 .focus\:place-content-baseline:focus {
   place-content: baseline;
 }
@@ -2610,6 +2652,10 @@ body {
 .focus\:border-t-white:focus {
   --tw-border-opacity: 1;
   border-top-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.focus\:pl-8:focus {
+  padding-left: 2rem;
 }
 
 .focus\:text-gray-200:focus {
@@ -2717,6 +2763,12 @@ body {
 
 .focus\:ring-transparent:focus {
   --tw-ring-color: transparent;
+}
+
+.focus\:transition-all:focus {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .active\:opacity-\[0\.85\]:active {
