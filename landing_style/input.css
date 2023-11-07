@@ -8,3 +8,7 @@
         font-family: 'Nunito', sans-serif;
     }
 }
+
+.display-none {
+    @apply hidden;
+}
