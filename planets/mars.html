@@ -33,24 +33,24 @@
     </script>
   </head>
   <body class="dark:bg-black bg-white">
-    <nav class="flex bg-white border-gray-200 dark:bg-black">
+    <nav class="flex w-full bg-white border-gray-200 dark:bg-black">
       <div class="flex w-full justify-between shadow-orange-600 shadow-lg">
         <div class="flex items-center">
           <img
-            class="flex h-20 w-20 rounded-full m-4 shadow-md shadow-orange-600"
+            class="flex h-20 w-20 rounded-full m-4 mr-8 shadow-md shadow-orange-600"
             src="/landing_style/files/mars.jpg"
             alt="marsLogo"
           />
-          <h1 class="flex text-orange-600 text-6xl ml-4">Coffee Mars</h1>
+          <h1 class="flex text-orange-600 text-6xl mx-4">Coffee Mars</h1>
         </div>
         <!--  -->
         <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-2 p-4"
+          class="max-w-screen-xl flex flex-wrap items-center justify-center mx-2 p-4"
         >
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg dark:bg-black md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:focus:ring-gray-600"
+            class="inline-flex items-center top-0 p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg dark:bg-black dark:hover:bg-transparent md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -71,9 +71,12 @@
               />
             </svg>
           </button>
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div
+            class="hidden md:block m-6 md:w-auto justify-end absolute"
+            id="navbar-default"
+          >
             <ul
-              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent dark:border-gray-700"
+              class="font-medium right-0 flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent dark:border-gray-700"
             >
               <li class="bg-transparent">
                 <a
