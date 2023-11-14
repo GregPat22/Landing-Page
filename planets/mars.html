@@ -73,7 +73,7 @@
           </svg>
         </button>
         <div
-          class="hidden absolute bg-black left-0 top-28 w-full md:block md:w-auto md:static"
+          class="hidden absolute dark:bg-transparent bg-white left-0 top-28 w-full md:block md:w-auto md:static"
           id="navbar-default"
         >
           <ul
@@ -152,6 +152,77 @@
         </button>
       </div>
     </nav>
+    <!-- table price  -->
+    <div class="flex-row">
+      <div
+        class="flex relative overflow-x-auto m-56 mt-64 min-w-[40%] shadow-sm shadow-orange-600 sm:rounded-lg"
+      >
+        <table
+          class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+        >
+          <caption
+            class="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-950"
+          >
+            Our products
+            <p
+              class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400"
+            >
+              We selected from our providers the best raw material, for the best
+              outcome possible. You will regret to doesn't leave Earth earlier
+            </p>
+          </caption>
+          <thead
+            class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-900 dark:text-gray-400"
+          >
+            <tr>
+              <th scope="col" class="px-6 py-3">Product</th>
+              <th scope="col" class="px-6 py-3">Quantity</th>
+              <th scope="col" class="px-6 py-3">Category</th>
+              <th scope="col" class="px-6 py-3">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b dark:bg-gray-950 dark:border-gray-700">
+              <th
+                scope="row"
+                class="px-6 py-4 w-full font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                Sub-0 Coffee Cream
+              </th>
+              <td class="px-6 py-4">200ml</td>
+              <td class="px-6 py-4">Drink</td>
+              <td class="px-6 py-4">$50</td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-950 dark:border-gray-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                Sweet Mars Eggplant
+              </th>
+              <td class="px-6 py-4">20g</td>
+              <td class="px-6 py-4">Laptop PC</td>
+              <td class="px-6 py-4">$150</td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-950">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                Cake-ars ( gluten free )
+              </th>
+              <td class="px-6 py-4">Black</td>
+              <td class="px-6 py-4">Accessories</td>
+              <td class="px-6 py-4">$65</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <card></card>
+      </div>
+    </div>
+    <!--  -->
     <!-- javascript FLOWBITE -->
     <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
