@@ -1296,6 +1296,18 @@ body {
   margin-top: 1px;
 }
 
+.me-3 {
+  margin-inline-end: 0.75rem;
+}
+
+.ms-0 {
+  margin-inline-start: 0px;
+}
+
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -3114,6 +3126,21 @@ body {
   background-color: transparent;
 }
 
+:is(.dark .dark\:bg-orange-700) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 52 3 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-orange-600) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 56 1 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-white) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:bg-opacity-80) {
   --tw-bg-opacity: 0.8;
 }
@@ -3156,6 +3183,11 @@ body {
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-black) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:shadow-emerald-400) {
@@ -3332,6 +3364,10 @@ body {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:ms-1 {
+    margin-inline-start: 0.25rem;
   }
 
   .md\:block {
