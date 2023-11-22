@@ -20,28 +20,89 @@
     <!--  -->
   </head>
   <body
-    class="dark:bg-black bg-white bg-no-repeat bg-cover"
+    class="dark:bg-black bg-white bg-no-repeat bg-cover h-screen"
     style="background-image: url('/landing_style/files/plutooBG.jpg')"
   >
-    <nav class="flex w-full">
-      <div>
-        <div>
+    <nav class="flex-shrink w-full">
+      <div class="flex justify-between">
+        <div class="flex">
           <img
             class="flex h-28 w-28 rounded-full object-cover m-4"
             src="/landing_style/files/pluto.jpg"
             alt="plutoLogo"
           />
-          <h1></h1>
+          <h1 class="flex items-center text-6xl dark:text-white text-black">
+            Pluto
+          </h1>
+          <h2 class="flex items-center dark:text-white text-black">
+            premium coffee
+          </h2>
         </div>
-        <div>
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <div class="flex items-center m-8">
+          <button
+            id="dropdownUserAvatarButton"
+            data-dropdown-toggle="dropdownAvatar"
+            class="flex text-sm bg-gray-800 rounded-full"
+            type="button"
+          >
+            <span class="sr-only">Open user menu</span>
+            <img
+              class="w-10 h-10 rounded-lg object-cover"
+              src="/landing_style/files/neil.jpg"
+              alt="user photo"
+            />
+          </button>
+
+          <!-- Dropdown menu -->
+          <div
+            id="dropdownAvatar"
+            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-950 dark:divide-gray-600"
+          >
+            <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+              <div>Neil Armstrong</div>
+              <div class="font-medium truncate">neilmoon@pluto.com</div>
+            </div>
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-200"
+              aria-labelledby="dropdownUserAvatarButton"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Dashboard</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Settings</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Earnings</a
+                >
+              </li>
+            </ul>
+            <div class="py-2">
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                >Sign out</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </nav>
+    <!-- javascript FLOWBITE -->
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <!--  -->
   </body>
 </html>
