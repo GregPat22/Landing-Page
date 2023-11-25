@@ -362,19 +362,40 @@
         </div>
       </div>
     </nav>
-    <div id="bodycards" class="flex">
+    <div id="bodycards" class="flex-col">
       <div
         id="card1"
-        class="max-w-md m-16 bg-slate-300 bg-opacity-90 rounded-lg"
+        class="flex-shrink-0 max-w-md m-16 bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-90 rounded-lg"
       >
-        <h2 class="flex text-3xl p-6 dark:text-white text-black">Why Us?</h2>
-        <p class="flex px-8 pb-6 dark:text-red-800">
+        <h2 class="flex text-3xl text- p-6 text-black font-bold">Why Us?</h2>
+        <p class="flex px-8 pb-6 dark:text-red-950">
           Pluto service is the best coffee shop service in the entire galaxy,
           and offers all subscribers the ability to know who will be in our
           coffee shops and an advanced chat system: you can finally write to the
           staff to get private rooms, or book in advance your favorite breakfast
           and enjoy the ready-made coffee once it arrives.
         </p>
+      </div>
+      <div id="menu" class="flex-row">
+        <div
+          class="flex m-56 rounded-lg mt-64 min-w-[40%] text-xs text-black uppercase bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-30"
+        >
+          <table class="w-full text-sm text-left rtl:text-right">
+            <hr class="w-full h-px my-8 absolute bg-black border-0" />
+            <caption class="text-2xl font-bold pt-4 pb-6 px-8">
+              Plutonians Open Menu:
+              <p></p>
+            </caption>
+            <thead class="text-xs">
+              <tr>
+                <th scope="col" class="px-6 py-3">Food</th>
+                <th scope="col" class="px-6 py-3">Drink</th>
+                <th scope="col" class="px-6 py-3">Price</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
       </div>
     </div>
     <!-- javascript FLOWBITE -->
