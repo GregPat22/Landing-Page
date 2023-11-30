@@ -363,112 +363,107 @@
         </div>
       </div>
     </nav>
-    <div id="bodycards" class="flex-col">
-      <div
-        id="card1"
-        class="flex-shrink-0 max-w-md m-16 bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-90 rounded-lg"
-      >
-        <h2 class="flex text-3xl text- p-6 text-black font-bold">Why Us?</h2>
-        <p class="flex px-8 pb-6 dark:text-red-950">
-          Pluto service is the best coffee shop service in the entire galaxy,
-          and offers all subscribers the ability to know who will be in our
-          coffee shops and an advanced chat system: you can finally write to the
-          staff to get private rooms, or book in advance your favorite breakfast
-          and enjoy the ready-made coffee once it arrives.
-        </p>
-      </div>
-      <div id="menu" class="flex-row">
-        <div
-          class="flex m-56 max-w-[100%] min-w-[60%] rounded-lg mt-64 text-xs text-black bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-30"
-        >
-          <table class="w-full text-sm text-left rtl:text-right">
-            <caption class="text-2xl font-bold pt-4 pb-6 px-8 p-6">
-              Plutonians Open Menu:
-              <p class="mt-1 text-sm font-normal text-red-950">
-                This menu is available for all the travelers, of every Galaxy,
-                Planet or cosmic region
-              </p>
-              <hr class="mx-32 min-w-fit my-2 border-t border-black" />
-            </caption>
-            <thead class="text-xs uppercase">
-              <tr>
-                <th scope="col" class="px-6 py-3">Food:</th>
-                <th scope="col" class="px-6 py-3">Drink:</th>
-                <th scope="col" class="px-6 py-3">Price:</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                class="bg-white border-b bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-30 dark:border-gray-700"
-              >
-                <th
-                  scope="row"
-                  class="px-6 py-6 w-full font-medium text-black whitespace-nowrap dark:text-white"
-                >
-                  Sub-0 Coffee Cream
-                </th>
-                <td class="px-6 py-4">200ml</td>
-                <td class="px-6 py-4">Drink</td>
-                <td class="px-6 py-4">$50</td>
-              </tr>
 
-              <tr
-                class="bg-white border-b dark:bg-gray-950 dark:border-b-gray-700"
+    <div
+      id="card1"
+      class="flex-shrink-0 max-w-md m-16 bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-90 rounded-lg"
+    >
+      <h2 class="flex text-3xl text- p-6 text-black font-bold">Why Us?</h2>
+      <p class="flex px-8 pb-6 dark:text-red-950">
+        Pluto service is the best coffee shop service in the entire galaxy, and
+        offers all subscribers the ability to know who will be in our coffee
+        shops and an advanced chat system: you can finally write to the staff to
+        get private rooms, or book in advance your favorite breakfast and enjoy
+        the ready-made coffee once it arrives.
+      </p>
+    </div>
+    <!-- Menu Table -->
+    <div id="menu" class="flex-row">
+      <div
+        class="flex relative overflow-x-auto m-56 min-w-[40%] sm:rounded-lg rounded-lg mt-64 text-xs text-black bg-gradient-to-t from-slate-500 to-yellow-100 bg-opacity-90"
+      >
+        <table class="w-full text-sm text-left rtl:text-right">
+          <caption class="text-2xl font-bold pt-4 pb-6 px-8 p-6">
+            Plutonians Open Menu:
+            <p class="mt-1 text-sm font-normal text-red-950">
+              This menu is available for all the travelers, of every Galaxy,
+              Planet or cosmic region
+            </p>
+            <hr class="mx-32 w-auto my-2 border-t border-black" />
+          </caption>
+          <thead class="text-xs uppercase">
+            <tr>
+              <th scope="col" class="px-6 py-3">Food:</th>
+              <th scope="col" class="px-6 py-3">Drink:</th>
+              <th scope="col" class="px-6 py-3">Type:</th>
+              <th scope="col" class="px-6 py-3">Price:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="rounded-lg border-b border-t border-t-black dark:border-b-gray-700"
+            >
+              <th
+                scope="row"
+                class="px-6 py-6 w-full text-black whitespace-nowrap dark:text-red-950 font-bold text-lg"
               >
-                <th
-                  scope="row"
-                  class="px-6 py-6 w-full font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                >
-                  Sweet Mars Eggplant
-                </th>
-                <td class="px-6 py-4">20g</td>
-                <td class="px-6 py-4">Food</td>
-                <td class="px-6 py-4">$150</td>
-              </tr>
-              <tr
-                class="bg-white border-b dark:border-b-gray-700 dark:bg-gray-950"
+                Sub-0 Coffee Cream
+              </th>
+              <td class="px-6 py-4">200ml</td>
+              <td class="px-6 py-4">Drink</td>
+              <td class="px-6 py-4">$50</td>
+            </tr>
+            <tr
+              class="border-b rounded-lg dark:border-b-gray-700 bg-opacity-90"
+            >
+              <th
+                scope="row"
+                class="px-6 py-6 w-full text-gray-900 whitespace-nowrap dark:text-red-950 font-bold text-lg"
               >
-                <th
-                  scope="row"
-                  class="px-6 py-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                >
-                  Cake-ars ( gluten free )
-                </th>
-                <td class="px-6 py-4">100g</td>
-                <td class="px-6 py-4">Food</td>
-                <td class="px-6 py-4">$65</td>
-              </tr>
-              <tr
-                class="bg-white border-b dark:border-gray-700 dark:bg-gray-950"
+                Sweet Mars Eggplant
+              </th>
+              <td class="px-6 py-4">20g</td>
+              <td class="px-6 py-4">Food</td>
+              <td class="px-6 py-4">$150</td>
+            </tr>
+            <tr class="border-b dark:border-b-gray-700">
+              <th
+                scope="row"
+                class="px-6 py-6 text-gray-900 whitespace-nowrap dark:text-red-950 font-bold text-lg"
               >
-                <th
-                  scope="row"
-                  class="px-6 py-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                >
-                  Martian Espresso
-                </th>
-                <td class="px-6 py-4">20ml</td>
-                <td class="px-6 py-4">Drink</td>
-                <td class="px-6 py-4">$12</td>
-              </tr>
-              <tr
-                class="bg-white border-b dark:bg-gray-950 dark:border-gray-700"
+                Cake-ars ( gluten free )
+              </th>
+              <td class="px-6 py-4">100g</td>
+              <td class="px-6 py-4">Food</td>
+              <td class="px-6 py-4">$65</td>
+            </tr>
+            <tr class="border-b dark:border-gray-700">
+              <th
+                scope="row"
+                class="px-6 py-6 text-gray-900 whitespace-nowrap dark:text-red-950 font-bold text-lg"
               >
-                <th
-                  scope="row"
-                  class="px-6 py-6 w-full font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                >
-                  Hot Chocko-latte
-                </th>
-                <td class="px-6 py-4">250ml</td>
-                <td class="px-6 py-4">Drink</td>
-                <td class="px-6 py-4">$55</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+                Martian Espresso
+              </th>
+              <td class="px-6 py-4">20ml</td>
+              <td class="px-6 py-4">Drink</td>
+              <td class="px-6 py-4">$12</td>
+            </tr>
+            <tr class="border-b dark:border-gray-700">
+              <th
+                scope="row"
+                class="px-6 py-6 w-full text-gray-900 whitespace-nowrap dark:text-red-950 font-bold text-lg"
+              >
+                Hot Chocko-latte
+              </th>
+              <td class="px-6 py-4">250ml</td>
+              <td class="px-6 py-4">Drink</td>
+              <td class="px-6 py-4">$55</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+
     <!-- javascript FLOWBITE -->
     <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
